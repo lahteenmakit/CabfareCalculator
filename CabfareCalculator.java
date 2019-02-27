@@ -4,7 +4,6 @@ import java.util.ArrayList;
 class Passenger {
 	private String name;
 	private double distanceOnboard; //kilometers
-	private double timeOnboard; //minutes
 	private double share; 
 
 	public String getName() {
@@ -13,10 +12,6 @@ class Passenger {
 
 	public double getDistanceOnboard() {
 		return this.distanceOnboard;
-	}
-
-	public double getTimeOnboard() {
-		return this.timeOnboard;
 	}
 
 	public double getShare() {
@@ -29,10 +24,6 @@ class Passenger {
 
 	public void setDistanceOnBoard(double km) {
 		this.distanceOnboard = km;
-	}
-
-	public void setTimeOnBoard(double time) {
-		this.timeOnboard = time;
 	}
 
 	public void setShare(double share) {
